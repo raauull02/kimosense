@@ -1,1 +1,0 @@
-raul palomeque nuñez
