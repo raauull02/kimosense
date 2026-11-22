@@ -10,4 +10,9 @@ public class DeportistaController {
     public String getDeportista() {
         return "Deportista: Carlos Perez - Disciplina: Ciclismo - Pulsaciones: 72 - Estado: Activo";
     }
+
+    @GetMapping("/deportista/estado")
+    public String getEstado() {
+        return "Activo";
+    }
 }
