@@ -10,4 +10,8 @@ public class EntrenadorController {
     public String getEntrenador() {
         return "Entrenador: Laura Gomez - Deportistas a cargo: 5 - Plan actual: Resistencia";
     }
+    @GetMapping("/entrenador/nombre")
+    public String getNombre() {
+        return "Laura Gomez";
+    }
 }
